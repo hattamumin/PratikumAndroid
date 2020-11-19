@@ -15,7 +15,6 @@
         android:textColor="@color/purple_700"
         android:textStyle="bold"
         />
-
     <TextView
         android:id="@+id/tvNameResult"
         android:layout_width="match_parent"
@@ -26,7 +25,6 @@
         android:textColor="@color/design_default_color_primary_dark"
         android:textAllCaps="true"
         />
-
     <TextView
         android:id="@+id/tvPhoneNumberResult"
         android:layout_width="match_parent"

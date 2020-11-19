@@ -29,7 +29,6 @@ class StudentActivity : AppCompatActivity() {
             i.putExtra(ResultActivity.EXTRA_ID, id)
             i.putExtra(ResultActivity.EXTRA_NAME, name)
             i.putExtra(ResultActivity.EXTRA_PHONE_NUMBER, phoneNumber)
-
             startActivity(i)
         }
 
