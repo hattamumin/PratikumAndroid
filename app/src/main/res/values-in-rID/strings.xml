@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pratikum Android</string>
+    <string name="hai_semua">Hai semua</string>
+    <string name="email">Surel</string>
+    <string name="password">Kata sandi</string>
+    <string name="login">Login</string>
+    <string name="student_id">Id Mahasiswa</string>
+    <string name="student_name">Nama Mahasiswa</string>
+    <string name="student_phone_number">Nomor Hp</string>
+    <string name="save">Simpan</string>
+    <string name="dial">Panggil</string>
+    <string name="change_language">Ganti Bahasa</string>
+</resources>

@@ -6,7 +6,9 @@ import android.net.Uri
 import android.nfc.NfcAdapter.EXTRA_ID
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.Settings
 import android.view.Menu
+import android.view.MenuItem
 import android.widget.Button
 import android.widget.EditText
 
@@ -51,5 +53,13 @@ class StudentActivity : AppCompatActivity() {
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.main_menu,menu)
         return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if(item.itemId == R.id.change_language_settings){
+            val i = Intent(Settings.ACTION_LOCALE_SETTINGS)
+            startActivity(i)
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

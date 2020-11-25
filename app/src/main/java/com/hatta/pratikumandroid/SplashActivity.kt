@@ -17,6 +17,7 @@ class SplashActivity : AppCompatActivity() {
             startActivity(i)
         },2000)
 
+        supportActionBar?.hide()
     }
 
 }
