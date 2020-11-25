@@ -20,9 +20,9 @@ class ResultActivity : AppCompatActivity() {
         val tvNameResult = findViewById<TextView>(R.id.tvNameResult)
         val tvPhoneNumber = findViewById<TextView>(R.id.tvPhoneNumberResult)
 
-        val id = intent.getStringExtra(EXTRA_ID)
-        val name = intent.getStringExtra(EXTRA_NAME)
-        val phoneNumber = intent.getStringExtra(EXTRA_PHONE_NUMBER)
+//        val id = intent.getStringExtra(EXTRA_ID)
+//        val name = intent.getStringExtra(EXTRA_NAME)
+//        val phoneNumber = intent.getStringExtra(EXTRA_PHONE_NUMBER)
 
           val student = intent.getParcelableExtra<Student>(EXTRA_STUDENT)
 
