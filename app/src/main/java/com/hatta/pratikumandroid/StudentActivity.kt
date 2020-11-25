@@ -25,11 +25,18 @@ class StudentActivity : AppCompatActivity() {
             val name = etNameStudent.text.toString()
             val phoneNumber = etPhoneNumberStudent.text.toString()
 
+            val student = Student(id,name,phoneNumber)
+
             val i = Intent(this, ResultActivity::class.java)
-            i.putExtra(ResultActivity.EXTRA_ID, id)
-            i.putExtra(ResultActivity.EXTRA_NAME, name)
-            i.putExtra(ResultActivity.EXTRA_PHONE_NUMBER, phoneNumber)
+  //          i.putExtra(ResultActivity.EXTRA_ID, id)
+  //          i.putExtra(ResultActivity.EXTRA_NAME, name)
+  //          i.putExtra(ResultActivity.EXTRA_PHONE_NUMBER, phoneNumber)
+
+            i.putExtra(ResultActivity.EXTRA_STUDENT, student)
+
             startActivity(i)
+
+            //POJO (Plain Old Java Object)
         }
 
         btDial.setOnClickListener {
